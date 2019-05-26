@@ -1,0 +1,24 @@
+.btn-white {
+  @apply font-semibold no-underline font-sans text-orange-500 text-base text-center bg-white py-1 px-2 mr-8 rounded;
+}
+
+.btn-white:hover {
+  @apply bg-orange-500 text-white;
+}
+
+
+.btn-orange {
+  @apply font-semibold no-underline font-sans text-white text-center text-base bg-orange-500 border-0 py-1 px-2 rounded;
+}
+
+.btn-orange:hover {
+  @apply bg-white text-orange-500;
+}
+
+.btn-nav-orange {
+  @apply font-semibold no-underline font-sans text-white text-center text-base bg-orange-600 border-0 py-1 px-2 rounded;
+}
+
+.btn-nav-orange:hover {
+  @apply bg-white text-orange-500;
+}
