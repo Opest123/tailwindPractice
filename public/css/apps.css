@@ -4767,6 +4767,14 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-display {
+  font-family: Gilroy, sans-serif;
+}
+
+.font-font {
+  font-family: Nunito-Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe-UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira-Sans, Droid-Sans, Helvetica-Neue, sans-serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -5005,6 +5013,14 @@ video {
 
 .list-decimal {
   list-style-type: decimal;
+}
+
+.list-square {
+  list-style-type: square;
+}
+
+.list-roman {
+  list-style-type: upper-roman;
 }
 
 .m-0 {
@@ -9351,8 +9367,72 @@ video {
   z-index: auto;
 }
 
+.btn-white {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #ed8936;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-right: 2rem;
+  border-radius: 0.25rem;
+}
+
+.btn-white:hover {
+  background-color: #ed8936;
+  color: #fff;
+}
+
+.btn-orange {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #ed8936;
+  border-width: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.btn-orange:hover {
+  background-color: #fff;
+  color: #ed8936;
+}
+
+.btn-nav-orange {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #dd6b20;
+  border-width: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.btn-nav-orange:hover {
+  background-color: #fff;
+  color: #ed8936;
+}
+
 body {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
+  font-family: Nunito-Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe-UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira-Sans, Droid-Sans, Helvetica-Neue, sans-serif;
 }
 
 blockquote {
@@ -9360,6 +9440,86 @@ blockquote {
   border-color: #4fd1c5;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 1.5rem;
+}
+
+.site-header {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-btn {
+  height: 2rem;
+  background-color: #dd6b20;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dd6b20;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+.site-btn:hover {
+  background-color: #fff;
+}
+
+.site-btn a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.site-btn a:hover {
+  color: #dd6b20;
+}
+
+.site-header-nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.site-header-nav ul a {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.site-header-nav ul button {
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.cover {
+  background-color: #000;
+}
+
+.content {
+  background-color: #F7F7F7;
+}
+
+.content-text {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-weight: 500;
+  color: #000;
+  text-align: center;
 }
 
 @media (min-width: 640px) {
@@ -13503,6 +13663,14 @@ blockquote {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .sm\:font-font {
+    font-family: Nunito-Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe-UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira-Sans, Droid-Sans, Helvetica-Neue, sans-serif;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -13741,6 +13909,14 @@ blockquote {
 
   .sm\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .sm\:list-square {
+    list-style-type: square;
+  }
+
+  .sm\:list-roman {
+    list-style-type: upper-roman;
   }
 
   .sm\:m-0 {
@@ -22229,6 +22405,14 @@ blockquote {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .md\:font-font {
+    font-family: Nunito-Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe-UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira-Sans, Droid-Sans, Helvetica-Neue, sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -22467,6 +22651,14 @@ blockquote {
 
   .md\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .md\:list-square {
+    list-style-type: square;
+  }
+
+  .md\:list-roman {
+    list-style-type: upper-roman;
   }
 
   .md\:m-0 {
@@ -30955,6 +31147,14 @@ blockquote {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .lg\:font-font {
+    font-family: Nunito-Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe-UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira-Sans, Droid-Sans, Helvetica-Neue, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -31193,6 +31393,14 @@ blockquote {
 
   .lg\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .lg\:list-square {
+    list-style-type: square;
+  }
+
+  .lg\:list-roman {
+    list-style-type: upper-roman;
   }
 
   .lg\:m-0 {
@@ -39681,6 +39889,14 @@ blockquote {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .xl\:font-font {
+    font-family: Nunito-Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe-UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira-Sans, Droid-Sans, Helvetica-Neue, sans-serif;
+  }
+
   .xl\:font-hairline {
     font-weight: 100;
   }
@@ -39919,6 +40135,14 @@ blockquote {
 
   .xl\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .xl\:list-square {
+    list-style-type: square;
+  }
+
+  .xl\:list-roman {
+    list-style-type: upper-roman;
   }
 
   .xl\:m-0 {

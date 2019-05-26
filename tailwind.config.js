@@ -59,7 +59,20 @@ module.exports = {
                 "red-vivid-700": "#AB091E",
                 "red-vivid-800": "#8A041A",
                 "red-vivid-900": "#610316",
-            }
+            },
+
+            listStyleType: {
+                none: 'none',
+                disc: 'disc',
+                decimal: 'decimal',
+                square: 'square',
+                roman: 'upper-roman',
+            },
+
+            fontFamily: {
+                display: ['Gilroy', 'sans-serif'],
+                font: ['Nunito-Sans', 'system-ui', 'BlinkMacSystemFont', '-apple-system', 'Segoe-UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell','Fira-Sans', 'Droid-Sans', 'Helvetica-Neue', 'sans-serif'],
+            },
         }
     },
     variants: {},

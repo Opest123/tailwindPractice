@@ -4,11 +4,61 @@
 
 @tailwind utilities;
 
+@import 'components/button';
 
-body{
-  @apply text-lg;
+
+body {
+  @apply text-xl font-font;
 }
 
-blockquote{
-  @apply border-l-4 border-teal-400 px-3;
+blockquote {
+  @apply border-l-4 border-teal-400 px-3 font-sans mb-6;
+}
+
+.site-header {
+  @apply max-w-6xl mx-auto flex items-center justify-between leading-loose mr-auto ml-auto;
+}
+
+.site-btn {
+  @apply h-8 bg-orange-600 border-solid border border-orange-600 rounded inline-block;
+}
+
+.site-btn:hover {
+  @apply bg-white;
+}
+
+.site-btn a {
+  @apply text-white text-base font-semibold;
+}
+
+.site-btn a:hover {
+  @apply text-orange-600;
+}
+
+.site-header-nav ul {
+  @apply list-none flex items-center;
+}
+
+.site-header-nav ul a {
+  @apply mr-4 text-base;
+}
+
+.site-header-nav ul button {
+  @apply mr-4 text-center;
+}
+
+.cover {
+  @apply bg-black;
+}
+
+.content {
+  @apply bg-grey-cool-050;
+}
+
+.content-text{
+  @apply max-w-5xl mx-auto flex items-center justify-between leading-loose mr-auto ml-auto;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  @apply font-medium text-black text-center;
 }

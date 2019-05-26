@@ -1,12 +1,12 @@
 @extends('layouts.master')
 @section('title')
-
+    Zuzana-K
 @endsection
 
 @section('content')
 
     <div>
-        <div class="border-solid border-b-2 flex items-center bg-white h-24 py-4">
+        <header class="border-solid border-b-2 flex items-center bg-white h-24 py-4">
             <div class="container flex items-center max-w-6xl mx-auto px-4 lg:px-20">
                 <div class="flex items-center">
                     <a href="#" class="text-lg md:text-2xl font-semibold">Zuzana K</a>
@@ -24,10 +24,10 @@
                     </nav>
                 </div>
             </div>
-        </div>
+        </header>
 
         <div class="flex-auto w-full container max-w-4xl mx-auto py-5 md:py-16 px-6">
-            <h1 class="text-lg text-6xl text-gray-200 font-bold">Welcome</h1>
+            <h1 class="text-xl text-6xl text-gray-200 font-bold">Welcome</h1>
             <div class="md:w-2/3 md:mx-auto">
                 <p class="py-3">
                     My name is Zuzana and I am a UK based web designer and developer with background in psychology. My
@@ -62,8 +62,8 @@
                      alt="person's hand on silver MacBook">
             </div>
 
-            <div class="mx-auto">
-                <h2 class="text-lg text-6xl text-gray-200 font-bold leading-tight block">Testimonials</h2>
+            <div class="clearfix">
+                <h2 class="text-xl text-6xl text-gray-200 font-bold">Testimonials</h2>
 
                 <div class="md:w-2/3 px-3 py-6">
                     <blockquote>
@@ -73,7 +73,7 @@
                     </blockquote>
                     <cite>
                         Quincy Larson, Teacher and Founder of
-                        <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp.org</a>
+                        <a href="https://www.freecodecamp.org" target="_blank" class="text-teal-300">freeCodeCamp.org</a>
                     </cite>
                 </div>
 
@@ -87,11 +87,11 @@
                     </blockquote>
                     <cite>
                         Elisabeth Klaar of
-                        <a href="https://oaktreestudio.co.uk" target="_blank">Oak Tree Studio</a>
+                        <a href="https://oaktreestudio.co.uk" target="_blank" class="text-teal-300">Oak Tree Studio</a>
                     </cite>
                 </div>
 
-                <div class="md:w-2/3 px-3 py-6 clearfix">
+                <div class="md:w-2/3 px-3 py-6 md:float-left">
                     <blockquote>
                         As our agency grows we are constantly searching for reliable partners to help us service the
                         growing needs of our customers. Zuzana has proven to be just that developer. We find her
@@ -102,12 +102,12 @@
                     </blockquote>
                     <cite class="py-6">
                         Penni Pickering of
-                        <a href="https://www.kabocreative.com" target="_blank">Kabo Creative Limited</a>
+                        <a href="https://www.kabocreative.com" target="_blank" class="text-teal-300">Kabo Creative Limited</a>
                     </cite>
                 </div>
 
                 <div class="md:w-2/3 bg-blue-100 px-3 py-6 md:float-right">
-                    <blockquote >
+                    <blockquote>
                         I have had the pleasure to work with Zuzana on a recent project of ours. Above all, I was most
                         impressed by Zuzana’s attention to detail, and her thorough approach to delivering the work we
                         assigned her. Zuzana was very systematic in organising her workload, and always kept a very
@@ -116,11 +116,28 @@
                     </blockquote>
                     <cite>
                         Francesco Fabbro of
-                        <a href="https://www.studio24.net" target="_blank">Studio 24</a>
+                        <a href="https://www.studio24.net" target="_blank" class="text-teal-300">Studio 24</a>
                     </cite>
                 </div>
             </div>
         </div>
+        <footer class="border-solid border-t-2 border-gray-200 py-3 px-6">
+            <div class="container mx-auto">
+                <ul class="list-square py-2">
+                    <li>
+                        <a href="/sitebot" class="text-teal-300">Sitebot.ai</a>
+                    </li>
+
+                    <li>
+                        <a href="/statusfy" class="text-teal-300">Statusfy.co</a>
+                    </li>
+                </ul>
+
+                <ul class="list-none flex justify-center py-3">
+                    <a href="https://www.zuzana-k.com" title="Zuzana's website" class="text-teal-300">Zuzana K</a> - 2019
+                </ul>
+            </div>
+        </footer>
 
     </div>
 @endsection

@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('files.index');
 });
+
+Route::get('sitebot', function () {
+    return view('files.sitebot');
+});
+
+Route::get('statusfy', function () {
+    return view('files.statusfy');
+});
+
