@@ -67,6 +67,7 @@ module.exports = {
                 decimal: 'decimal',
                 square: 'square',
                 roman: 'upper-roman',
+                checkmark: 'mark',
             },
 
             fontFamily: {

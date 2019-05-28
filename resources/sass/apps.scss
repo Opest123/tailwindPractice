@@ -16,23 +16,7 @@ blockquote {
 }
 
 .site-header {
-  @apply max-w-6xl mx-auto flex items-center justify-between leading-loose mr-auto ml-auto;
-}
-
-.site-btn {
-  @apply h-8 bg-orange-600 border-solid border border-orange-600 rounded inline-block;
-}
-
-.site-btn:hover {
-  @apply bg-white;
-}
-
-.site-btn a {
-  @apply text-white text-base font-semibold;
-}
-
-.site-btn a:hover {
-  @apply text-orange-600;
+  @apply flex flex-row items-center justify-between leading-loose;
 }
 
 .site-header-nav ul {
@@ -61,4 +45,43 @@ blockquote {
 
 h1 h2 h3 h4 h5 h6 {
   @apply font-medium text-black text-center;
+}
+
+.container-content{
+    @apply  max-w-3xl mx-auto px-4;
+}
+
+.container-lg{
+    @apply max-w-5xl mx-auto px-4;
+}
+
+.example-emails{
+    @apply relative w-40 border bg-white bg-no-repeat block text-xs;
+}
+
+.example-emails2{
+    @apply absolute;
+    top: 2.25rem;
+    left: 1.25rem;
+}
+
+.example-emails3{
+    @apply absolute;
+    top: 4.5rem;
+    left: 2.5rem;
+}
+
+.bar {
+    @apply h-4 w-full rounded bg-gray-200 mt-4 px-4;
+}
+h2{
+    @apply text-black font-semibold text-2xl;
+}
+
+h3, h4, h5{
+    @apply text-black font-semibold text-base;
+}
+
+p{
+    @apply text-lg text-grey-cool-500;
 }
