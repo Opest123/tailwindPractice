@@ -30,3 +30,11 @@
 .btn-price:hover{
     @apply bg-white text-orange-500 border-orange-500;
 }
+
+.btn-footer{
+    @apply font-semibold no-underline font-sans text-white text-center text-xl bg-orange-600 border-orange-600 border py-3 px-6 rounded-sm;
+}
+
+.btn-footer:hover{
+    @apply bg-white text-orange-500 border-orange-600;
+}
